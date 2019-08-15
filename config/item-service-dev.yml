@@ -1,8 +1,12 @@
 spring:
   application:
     name: item-service
-    
-#server:
+  rabbitmq:
+    host: 192.168.61.128
+    port: 5672
+    username: admin
+    password: admin
+#  server:
 #  port: 8001
 
 eureka:
